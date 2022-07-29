@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
         builder
         .AllowAnyMethod()
         .AllowAnyHeader()
-        .WithOrigins("http://localhost:3000", "https://aspnetcorereactserver.azurewebsites.net");
+        .WithOrigins("http://localhost:3000", "https://gentle-moss-0630e8600.1.azurestaticapps.net");
     });
 });
 // Add services to the container.
