@@ -46,7 +46,7 @@ export default function App() {
           <div className="col d-flex flex-column justify-content-center align-items-center>">
             {(showingCreateNewPostForm === false && postBeingCurrentlyUpdate === null) && (
               <div>
-                <h1 align="center"> React APP Frontend With ASP.Net Core 6 Minimalistic API Backend  </h1>
+                <h1 align="center"> React APP With ASP.Net Core 6 Minimalistic API  </h1>
                 <div className="mt-5" align="center">
                   <button onClick={getPosts} className="btn btn-dark btn-large w-100">Get Posts From Server</button>
                   <button onClick={() => setShowingCreateNewPostForm(true)} className="btn btn-dark btn-secondary w-100 mt-4">Create New Post</button>
